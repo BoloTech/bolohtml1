@@ -1,9 +1,14 @@
-﻿h1 {
+body{
+	background-color: #dcdcdc;
+}
+
+h1 {
 	font-size: 80px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	color: #ff0000;
+	color:#ffffff;
 	text-align: center;
 }
+
 .container {
     display: inline-block;
     cursor: pointer;
@@ -54,3 +59,15 @@
 .dropdown a:hover {background-color: #f1f1f1}
 
 .show {display:block;}
+
+.images_prices_holder {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.glitter_image_prices_class {
+	float: left;
+	position: relative;
+}
